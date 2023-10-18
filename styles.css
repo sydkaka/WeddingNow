@@ -15,10 +15,12 @@
     background-color: plum;
     width: 100%;
   }
+  .video {
+    list-style-type: none;
+  }
   
   li {
     float: left;
-    border-right: 1px solid #bbb;
   }
   
   li a {
@@ -67,27 +69,6 @@
     object-fit: cover;
     border-radius: 10px;
   }
-  .video-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Adjust the height as needed */
-  }
-
-.video-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    list-style: none;
-    padding: 0;
-
-}
-
-.video-item {
-    width: calc(33.33% - 10px); /* Adjust width as needed */
-    margin: 10px;
-    text-align: center;
-}
 
 .video-title {
     font-weight: bold;
@@ -98,3 +79,4 @@
     margin-top: 10px;
     color: white;
 }
+
