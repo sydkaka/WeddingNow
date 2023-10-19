@@ -93,10 +93,12 @@
   
   .video-title {
     font-weight: bold;
+    color: white;
   }
   
   .video-description {
     margin-top: 10px;
+    color: white;
   }
   
 
